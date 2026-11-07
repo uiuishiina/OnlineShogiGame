@@ -10,6 +10,7 @@ namespace Assets.Scripts.Utility.StaticObjects
         public const string UI = "UI";
     }
 
+    [RequireComponent(typeof(PlayerInput))]
     public class StaticInputManager : StaticObject<StaticInputManager>
     {
         /* ========== 変数 ========== */
